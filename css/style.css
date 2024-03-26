@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.asside-bar{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    transition: 3s;
+    
+}
+.asside-bar .icon{
+   position: relative;
+    
+}
+.asside-bar .icon i{
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+}
+.asside-bar .icon i:hover{
+    cursor: pointer;
+}
+
+.asside-bar ul li{
+  margin: 50px;
+  padding: 10px;
+ 
+}
+
+.asside-bar ul li a{
+    color: white;
+    font-size: 30px;
+}
+
+.none{
+    transition: 2s;
+    transform: translate(0px,700px);
+}
+#open{
+    padding: 10px;
+    margin: 10px;
+    background-color: pink;
+    color: white;
+    font-size: 22px;
+    border-radius: 15px;
+    border: none;
+   
+}
+#open:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+.asside-bar ul li a:hover{
+    color: pink;
+}
